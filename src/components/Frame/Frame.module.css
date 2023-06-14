@@ -1,0 +1,448 @@
+.root {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.rectangle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1519px;
+  height: 64px;
+  background-color: #007a5d;
+  box-shadow: 0px 2px 5px 0px #00000029;
+}
+.rectangle2 {
+  position: absolute;
+  left: 1567px;
+  top: 9px;
+  width: 154px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #f1f3f4;
+}
+.group {
+  position: absolute;
+  left: 536px;
+  top: 20px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.group2 {
+  position: absolute;
+  left: 682px;
+  top: 20px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangle3 {
+  position: absolute;
+  left: 40px;
+  top: 64px;
+  width: 909px;
+  height: 500px;
+  border-radius: 0 0 16px 16px;
+}
+.image1 {
+  position: absolute;
+  left: 40px;
+  top: 64px;
+  width: 909px;
+  height: 708px;
+  background-image:/* webpackIgnore: true */ url('/assets/image1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image:/* webpackIgnore: true */ url('/assets/maskGroup.svg');
+  mask-image:/* webpackIgnore: true */ url('/assets/maskGroup.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: 0px 0px;
+  mask-position: 0px 0px;
+  -webkit-mask-size: 909px 500px;
+  mask-size: 909px 500px;
+}
+.rectangle4 {
+  position: absolute;
+  left: 90px;
+  top: 534px;
+  width: 859px;
+  height: 301px;
+  border-radius: 16px 0 16px 16px;
+  background-color: #fff;
+  box-shadow: 0px 0px 32px 0px #0000001c;
+}
+.rectangle5 {
+  position: absolute;
+  left: 996.1625px;
+  top: 484.8px;
+  width: 377.15px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  background-color: #e8eaed;
+}
+.rectangle6 {
+  position: absolute;
+  left: 996px;
+  top: 112px;
+  width: 377px;
+  height: 373px;
+}
+.rectangle7 {
+  position: absolute;
+  left: 996px;
+  top: 112px;
+  width: 377px;
+  height: 228px;
+  border-radius: 8px;
+}
+.rectangle8 {
+  position: absolute;
+  left: 996.1625px;
+  top: 675.6px;
+  width: 377.15px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  background-color: #e8eaed;
+}
+.rectangle9 {
+  position: absolute;
+  left: 996px;
+  top: 521px;
+  width: 377px;
+  height: 155px;
+}
+.rectangle10 {
+  position: absolute;
+  left: 1213px;
+  top: 549px;
+  width: 160px;
+  height: 90px;
+  border-radius: 8px;
+}
+.skipToMainContent {
+  color: #1a73e8;
+  font-size: 14px;
+  line-height: 20.216px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.25px;
+  position: absolute;
+  left: 1577px;
+  top: 18px;
+  width: 134px;
+  height: min-content;
+  flex-direction: column;
+}
+.rectangle11 {
+  position: absolute;
+  left: 1371px;
+  top: 8px;
+  width: 124px;
+  height: 47px;
+  border-radius: 4px;
+  background-color: #005a7a;
+}
+.tryItOut {
+  color: #fff;
+  font-size: 16px;
+  line-height: 23.104px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1397px;
+  top: 21px;
+  width: 72px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rectangle12 {
+  position: absolute;
+  left: 766px;
+  top: 737px;
+  width: 124px;
+  height: 47px;
+  border-radius: 4px;
+  background-color: #005a7a;
+}
+.tryItOut2 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 23.104px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 792px;
+  top: 750px;
+  width: 72px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rectangle13 {
+  position: absolute;
+  left: 630px;
+  top: 737px;
+  width: 124px;
+  height: 47px;
+  border-radius: 4px;
+}
+.source {
+  opacity: 0.75;
+  color: #202124;
+  font-size: 16px;
+  line-height: 23.104px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 656px;
+  top: 750px;
+  width: 72px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sUCITTECH {
+  color: #174ea6;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 138px;
+  top: 582px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.SoSucitAITheNextGenerationOfAI {
+  color: #202124;
+  font-size: 36px;
+  line-height: 36px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 138px;
+  top: 613px;
+  width: 693px;
+  height: min-content;
+  flex-direction: column;
+}
+.theGoogleBardPoweredAIChatbotI {
+  color: #5f6368;
+  font-size: 15px;
+  line-height: 28px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 138px;
+  top: 706px;
+  width: 479px;
+  height: min-content;
+  flex-direction: column;
+}
+.sUCITSPORTS {
+  color: #174ea6;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 996px;
+  top: 364px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.indonesiaAimsToStunWorldChampi {
+  color: #202124;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 996px;
+  top: 394px;
+  width: 373px;
+  height: min-content;
+  flex-direction: column;
+}
+.sUCITGAMING {
+  color: #174ea6;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 996px;
+  top: 520px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._3MostAnticipatedGamesOf2023 {
+  color: #202124;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 996px;
+  top: 553px;
+  width: 162px;
+  height: min-content;
+  flex-direction: column;
+}
+.sUCITHARDWARE {
+  color: #174ea6;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 996px;
+  top: 711px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.hotwavCyberXIsNotWorthThePrice {
+  color: #202124;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Google Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 996px;
+  top: 740px;
+  width: 323px;
+  height: min-content;
+  flex-direction: column;
+}
+.SoSucitAI {
+  position: absolute;
+  left: 23.9999px;
+  top: 22.7464px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.labelWrapper {
+  font-size: 17.1932px;
+  font-family: Humanist 777 Extra Black, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #f7de47;
+  font-size: 17.1932px;
+  font-family: Humanist 777 Extra Black, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.label2 {
+  color: #fff;
+  font-size: 17.1932px;
+  font-family: Humanist 777 Extra Black, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.label3 {
+  color: #f7de47;
+  font-size: 17.1932px;
+  font-family: Humanist 777 Extra Black, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.label4 {
+  color: #fff;
+  font-size: 17.1932px;
+  font-family: Humanist 777 Extra Black, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.label5 {
+  color: #f7de47;
+  font-size: 17.1932px;
+  font-family: Humanist 777 Extra Black, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.babi {
+  color: #ffffff80;
+  font-size: 6.7379px;
+  font-family: Humanist 777, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.16em;
+  position: absolute;
+  left: 108.107px;
+  top: 20px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.image4 {
+  position: absolute;
+  left: 981px;
+  top: 112px;
+  width: 407px;
+  height: 319px;
+  background-image:/* webpackIgnore: true */ url('/assets/image4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image:/* webpackIgnore: true */ url('/assets/maskGroup2.svg');
+  mask-image:/* webpackIgnore: true */ url('/assets/maskGroup2.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: 15px 0px;
+  mask-position: 15px 0px;
+  -webkit-mask-size: 377px 228px;
+  mask-size: 377px 228px;
+}
+.image5 {
+  position: absolute;
+  left: 1217px;
+  top: 549px;
+  width: 156px;
+  height: 90px;
+  background-image:/* webpackIgnore: true */ url('/assets/image5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image6 {
+  position: absolute;
+  left: 641px;
+  top: 199px;
+  width: 297.2338px;
+  height: 335px;
+  border-radius: 8.3925px 8.3925px 0 0;
+  background-image:/* webpackIgnore: true */ url('/assets/image6.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
